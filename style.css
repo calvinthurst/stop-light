@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.neck{
+  background-color: rgb(97, 97, 97);
+  width: 50px;
+  height: 70px;
+}
+.main-body{
+  padding: 1em;
+background-color: rgb(97, 97, 97);
+width: 120px;
+height: 330px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.light{
+  width: 90px;
+  height: 90px;
+  border-radius: 50em;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+.light:hover{
+  background-color: white;
+}
